@@ -1,0 +1,408 @@
+<html>
+<head>
+    
+    <title>TCS HOME PAGE</title>
+    
+    <style>
+     *{
+        box-sizing: content-box;
+     }
+    
+        .about{
+/*            border: 1px solid black;*/
+            width: 100%;
+            height: 80px;
+            background-color: black;
+/*            position: fixed;*/
+        }
+    
+    .secondbg
+        {
+           
+/*            border: 1px solid blue;*/
+            width: 100%;
+            height: 500px;
+            padding-top: 200px;
+            background-image:url(tcs_1.jpeg);
+            background-repeat: no-repeat; 
+              background-size: cover; 
+              background-attachment: fixed;
+        }
+        
+        .thinking
+        {
+/*            border: 1px solid red;*/
+            width: 1000px;
+            height: 500px;
+            margin:auto;
+            
+        }
+        #think1
+        {
+            margin: auto;
+            width: 320px;
+            height: 205px;
+            border: 1px solid white;
+            background-color:floralwhite;
+        }
+    #think2
+        {
+            margin: auto;
+            margin-top: -200px;
+            width: 320px;
+            height: 205px;
+            border: 1px solid white;
+            background-color:floralwhite;
+        }
+         #think3
+        {
+            margin-top: -205px;
+            float:right;
+            width: 320px;
+            height: 205px;
+            border: 1px solid white;
+            background-color:floralwhite;
+        }
+        
+         .success
+        {
+/*            border: 1px solid red;*/
+            width: 1000px;
+            height: 500px;
+            margin:auto;
+            
+        }
+        
+          #success1
+        {
+            
+            float:right;
+            width: 330px;
+            height: 220px;
+            border: 1px solid white;
+            background-color:floralwhite;
+        }
+    
+            #success2
+        {
+            margin-top: 40px;
+           
+            width: 330px;
+            height: 220px;
+            border: 1px solid white;
+            background-color:floralwhite;
+        }
+        
+        
+          #success3
+        {
+            
+            float:right;
+            margin-top: -220px;
+            width: 330px;
+            height: 220px;
+            border: 1px solid white;
+            background-color:floralwhite;
+        }
+    
+        .secondlast
+        {
+            width: 100%;
+            height: 600px;
+            background-image: url(tcs_1.jpeg);
+        }
+        
+      .last
+        {
+            width: 100%;
+            height: auto;
+            background-color: darkslategray;
+        }
+        
+    #industries
+        {
+            width: 250px;
+            height: 500px;
+/*            border: 1px solid red;*/
+            margin-left: 60px;
+            float: left;
+/*            margin-top: 30px;*/
+            
+            
+        }
+        
+       #services
+        {
+            width: 250px;
+            height: 500px;
+/*            border: 1px solid red;*/
+            margin-left: 60px;
+/*            display: inline-block;*/
+            float:left;
+/*            margin-top: 30px;*/
+            
+        }  
+        
+        #product_platform
+        {
+            width: 250px;
+            height: 500px;
+/*            border: 1px solid red;*/
+            margin-left: 60px;
+/*            display: inline-block;*/
+            float: left;
+/*            margin-top: 30px;*/
+        }  
+        
+        #discover_TCS
+        {
+             width: 250px;
+            height: 500px;
+/*            border: 1px solid red;*/
+            float: left;
+            margin-left: 60px;
+/*            margin-top: 30px;*/
+
+            
+        }
+        
+    
+    </style> 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    
+        $(document).ready(function(){
+           $(".thinking").on("mouseover",function(){
+//            $(".hd").show(1000);
+            
+             
+        });
+            $(".success").on("mouseover",function(){
+//            $(".hd").show(1000);
+            
+            
+        }); 
+        
+        $(document).scroll(function(){
+            // $("h1").mouseover(function(){
+                if ($(this).scrollTop()>500 ){
+                $(".thinking").show(1000);
+            }
+            if ($(this).scrollTop()>600 ){
+                $(".p1").show(1000);
+            }
+             if ($(this).scrollTop()>900 ){
+                $(".success").show(1000);
+            }
+            if ($(this).scrollTop()>1100 ){
+                $(".p2").show(1000);
+            }
+            });
+            
+            
+            $(".secondlast").mouseover(function(){
+                $(".p3").show(1000);
+            });
+            
+            $(".secondbg").mouseover(function(){
+                $(".s1").show(1000);
+            });
+            
+        });
+        
+    </script>
+    </head>
+
+
+<body>
+    
+ <div class="about">
+    
+     <h4 style="color: white; padding-left: 70px; float: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>TATA</b><br> Colsultancy Service</h4><br>
+    
+<ul>
+         <a href="" style="margin-left: 300px; color:wheat; text-decoration: none;">Industries</a>
+     <a href="" style="margin-left: 35px; color:wheat; text-decoration: none;">Services</a>
+     <a href="" style="margin-left: 35px; color:wheat; text-decoration: none;">Products & Platforms</a>
+     <a href="" style="margin-left: 35px; color:wheat; text-decoration: none;">Discover TCS</a>
+    <a href="" style="margin-left: 35px; color:wheat; text-decoration: none;">Careers</a> 
+    
+     </ul> 
+     <img src="TATAblack.png" style="float: right; margin-top: -50px; margin-right: 30px;">
+    </div>
+    
+<div class="secondbg img-fluid">
+  <center>  <h1 class="s1" style="display: none; color: white; font-family:serif; margin-top: 60px; font-size: 50px;">TCS PACE</h1>
+    <p class="s1" style="display: none; color: white; font-size: 40px; font-family: monospace;">Smarter. More Agile. More Intelligent.<br> More Automated</p>
+    
+    </center>
+    
+    </div>    <br>
+    
+    <h1 style="text-align: center; color: cadetblue; font-family:sans-serif">Our Thinking</h1>
+  
+      
+    <div class="thinking" style="display: none">
+    
+    <img src="t1.jpg" style="float: left;">
+        
+        <div id="think1">
+        <p class="p1" style="display: none; color: dimgray;">BLOG</p>
+            <h4 class="p1" style="display: none; color: dimgrey; font-family: sans-serif;">ATP Transforms Customer Experience to Drive Business Growth</h4>
+            
+            <p class="p1" style="display: none; color: dimgray">When implemented well, agile ATP can help enterprises better tailor product delivery to individual cutomers.</p>
+        </div>
+        <img src="t2.jpg" style="float: right; margin-top: -206px;">
+        <img src="t3.jpg" style="margin-top: 60px;">
+         <div id="think2">
+              <p class="p1" style="display: none; color: dimgray;">BLOG</p>
+             <h4 class="p1" style="display: none; color: dimgrey; font-family: sans-serif;">What's Holding You Back From Gaining Valuable Data Insights?</h4> 
+             <p class="p1" style="display: none; color: dimgray">The barries to valuable deduction of digital data insights are not insurmountable.</p>
+             </div>
+             
+        <div id="think3">
+         <p class="p1" style="display: none; color: dimgray;">BLOG</p>
+            <h4 class="p1" style="display: none; color: dimgrey; font-family: sans-serif;">Improve Counterparty Credit Risk Management</h4>
+            <p class="p1" style="display: none; color: dimgray">Tracking news in real-time to better moniter counterparties'financial health.</p> 
+        
+        
+        </div>
+        
+    
+    </div>
+    
+    
+    <h1 style="text-align: center; color: cadetblue; font-family:sans-serif">Our Success</h1>
+  
+    <div class="success" style="display: none">
+    <img src="t4.jpg" style="float: left;">
+    <img src="t5.jpg" style="margin-left: 40px;">
+    
+        <div id="success1">
+            <p class="p2" style="display: none; color: dimgray;">SUCCESS STORY</p>
+            <h4 class="p2" style="display: none; color: dimgrey; font-family: sans-serif;">KLM Royal DDutch Airlines Transforms Customer  Experience</h4>
+            <p class="p2" style="display: none; color: dimgray">TCS automates KLM social media Hub to help them 'be where the customers are'</p> 
+        
+        </div>
+        <div id="success2">
+        
+         <p class="p2" style="display: none; color: dimgray;">SUCCESS STORY</p>
+        
+            <h4 class="p2" style="display: none; color: dimgrey; font-family: sans-serif;">Aegon Life modernize talent management with TCS</h4>
+            <p class="p2" style="display: none; color: dimgray">TCS CHROMA enables end to end talent management on cloud.</p>
+        
+  </div>
+        
+        <img src="t.6jpg.jpg" style="margin-left: 340px; margin-top: -220px;">
+        
+        <div id="success3">
+         <p class="p2" style="display: none; color: dimgray;">SUCCESS STORY</p>
+            <h4 class="p2" style="display: none; color: dimgrey; font-family: sans-serif;">Tata Sons hanrnesses Group Synergy with Platform-Based Sourcing Services</h4>
+            <p class="p2" style="display: none; color: dimgray">TCS sourcing platforms helps Tata Sons fast-track sustainable and inclusive sourcing</p>   
+       </div>
+        
+    </div><br><br>
+    
+    
+    <div class="secondlast">
+  <center>
+    <h1 class="p3" style="display: none; padding-top: 250px; color:white; font-family: sans-serif; text-decoration: underline; text-decoration-color: greenyellow;">TRANSFORM TO ENTERPRISE AGILE</h1>
+    <p class="p3" style="display: none; color: white; font-family: sans-serif; font-size: 30px;"> Work with us to reduce your Agility Burden, thrive in a dynamic<br>environment & create a better tomorrow </p>
+   
+      
+      
+      
+      </center>
+      </div>
+    <br><br><br>
+    
+    <div class="last">
+ 
+    <div id="industries">
+        <h4 style="color: white; font-size: 20px;">Industries</h4>
+        <a href="" style="color:lightblue; text-decoration: none;">Banking & financial Services</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Consumer Goods & Distribution</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Communication, Media & Technology</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Energy, Resources & utilities</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Insurance</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Life, Sciences & Healthcare</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Manufacturing</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Public Services</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Retail</a><br><br>
+    <a href="" style="color:lightblue; text-decoration: none;">Travel, Transportation & Hospitality</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">HiTech</a>
+      
+    </div>    
+        
+      <div id="services">
+        <h4 style="color: white; font-size: 20px;">Services</h4>
+           <a href="" style="color:lightblue; text-decoration: none;">Cognitive Business</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Consulting</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Analytics</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Automation & AI</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">IOT</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Cloud Application</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Cloud Infrastructure</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Cyber Security</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">TCS Intaractive</a><br><br>
+    <a href="" style="color:lightblue; text-decoration: none;">Industrial Engineering</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Quality Engineering</a><br><br>
+       <a href="" style="color:lightblue; text-decoration: none;">Enterprise</a>
+        
+        </div>  
+        
+        <div id="product_platform">
+        <h4 style="color: white; font-size: 20px;">Products & Platforms</h4>
+            <a style="color: white">Products</a><br>
+             <a href="" style="color:lightblue; text-decoration: none;">CHROMA</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Customers Intelligence & Insight</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Ignio</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Intelligent Urban Exchange</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">TCS iON</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Optumera</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">TAP</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">TCS BaNCS</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">TCS MasterCraft</a><br><br>
+    <a href="" style="color:lightblue; text-decoration: none;">Jile</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Quartz Blockchain Solutions</a><br><br><br>
+     <a style="color: white">Platforms</a><br>
+            <a href="" style="color:lightblue; text-decoration: none;">Advanced Drug Development</a><br><br>
+               <a href="" style="color:lightblue; text-decoration: none;">Connected Intelligence Platforms</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">ERP on Cloud</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">HOBS</a><br><br>
+        
+        
+        </div>
+        
+        <div id="discover_TCS">
+        <h4 style="color: white; font-size: 20px;">Discover TCS</h4>
+         <a href="" style="color:lightblue; text-decoration: none;">About us</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Alliances & Partnerships</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Blogs</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Invester Relations</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Research & Innovation</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Perspactives</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Corporate Sustainability</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Newsroom</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Sport Sponsorships</a><br><br>
+    <a href="" style="color:lightblue; text-decoration: none;">Brexit</a><br><br>
+        <a href="" style="color:lightblue; text-decoration: none;">Diversity & Inclusion</a><br><br>
+    
+            <a href="" style="color:lightblue; text-decoration: none;">TCS 50 Time Machine</a><br><br>
+               <a href="" style="color:lightblue; text-decoration: none;">TCS Pace</a>
+         <h4 style="color: white; font-size: 20px;">CORPORATE TCS</h4>
+         <a href="" style="color:lightblue; text-decoration: none;">Careers</a><br><br>
+               <a href="" style="color:lightblue; text-decoration: none;">TCS Worldwide</a>
+        
+        </div>
+        
+        <br>
+        
+     <p style="color: lightblue; margin-left: 140px; clear: left; padding-top: 170px;" >©2019 Tata Consultancy Services Limited. All Rights Reserved.</p>   
+        
+    </div>
+    
+        
+    </body>
+</html>
